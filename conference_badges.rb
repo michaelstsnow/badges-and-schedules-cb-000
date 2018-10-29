@@ -1,7 +1,7 @@
 # Write your code here.
 def batch_badge_creator(attendees)
   attendees.each_with_index { | name, index |
-    badges[item] = "Hello, my name is #{name}."
+    badges[item] = badge_maker(name);
   }
   return badges
 end
