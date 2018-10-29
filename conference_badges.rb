@@ -1,5 +1,5 @@
 # Write your code here.
-def batch_badge_creator
+def batch_badge_creator(attendees)
 end
 
 def badge_maker(name)
