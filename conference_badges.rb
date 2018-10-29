@@ -3,6 +3,7 @@ def batch_badge_creator(attendees)
   attendees.each_with_index { | name, index |
     badges[item] = "Hello, my name is #{name}."
   }
+  return badges
 end
 
 def badge_maker(name)
