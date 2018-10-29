@@ -15,5 +15,8 @@ def assign_rooms(names)
   return assignments
 end
 
-def printer
+def printer(final_array)
+  final_array.each{ |line|
+    puts "#{line}"
+  }
 end
