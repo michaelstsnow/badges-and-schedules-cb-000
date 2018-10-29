@@ -1,4 +1,7 @@
 # Write your code here.
-def conference_badges(names)
+def conference_badges(names_list)
+  room=1;
+  names_list.each{ |name|
+    puts "Hello, #{name}! You'll be assigned to room _____!"
+  }
 end
-"Hello, _____! You'll be assigned to room _____!"
