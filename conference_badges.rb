@@ -12,9 +12,9 @@ def badge_maker(name)
 end
 
 def assign_rooms(attendees)
-  Badges = batch_badge_creator(attendees);
-  Badges.each do { |Intro|
-    
+  badges = batch_badge_creator(attendees);
+  badges.each do { |Intro|
+
   }
 end
 
