@@ -13,6 +13,7 @@ end
 
 def assign_rooms(attendees)
   badges = batch_badge_creator(attendees);
+  badge_and_room=[];
   badges.each { | Intro |
 
   }
