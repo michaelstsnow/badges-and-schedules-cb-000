@@ -12,6 +12,7 @@ def assign_rooms(names)
     assignments << "Hello, #{names}! You'll be assigned to room #{room}!"
     room +=1;
   end
+  return assignments
 end
 
 def printer
