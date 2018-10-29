@@ -16,7 +16,7 @@ def assign_rooms(attendees)
   badge_and_room=[];
   room=1;
   badges.each_with_index { | Intro, index |
-    badge_and_room << Intro + " You'll be assigned to room !"
+    badge_and_room << Intro + " You'll be assigned to room #{index}!"
   }
 end
 
