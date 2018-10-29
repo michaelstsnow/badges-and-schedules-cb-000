@@ -5,7 +5,8 @@ end
 def badge_maker
 end
 
-def assign_rooms(name)
+def assign_rooms(names)
+
   puts "Hello, #{name}! You'll be assigned to room 1!"
 end
 
