@@ -2,7 +2,7 @@
 def batch_badge_creator(attendees)
   badges =[];
   attendees.each { | name|
-    badges[item] = badge_maker(name);
+    badges << badge_maker(name);
   }
   return badges
 end
