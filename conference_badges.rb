@@ -15,7 +15,7 @@ def assign_rooms(attendees)
   badges = batch_badge_creator(attendees);
   badge_and_room=[];
   badges.each_with_index { | intro, index |
-    badge_and_room << intro + " You'll be assigned to room #{index}!"
+    badge_and_room << "Hello, Edsger! You'll be assigned to room #{index}!"
   }
   return badge_and_room
 end
