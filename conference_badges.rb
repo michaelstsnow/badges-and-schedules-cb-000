@@ -12,7 +12,7 @@ def badge_maker(name)
 end
 
 def assign_rooms(attendees)
-  batch_badge_creator(attendees)
+  Badges = batch_badge_creator(attendees)
 end
 
 def printer()
