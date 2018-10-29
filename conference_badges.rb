@@ -7,8 +7,9 @@ end
 
 def assign_rooms(names)
   room = 1;
+  assignments=[];
   names.each do
-    puts "Hello, #{names}! You'll be assigned to room #{room}!"
+    assignments << "Hello, #{names}! You'll be assigned to room #{room}!"
     room +=1;
   end
 end
