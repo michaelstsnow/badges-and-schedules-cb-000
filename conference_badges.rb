@@ -4,3 +4,6 @@ end
 
 def badge_maker
 end
+
+def assign_rooms
+end
