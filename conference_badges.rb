@@ -1,5 +1,8 @@
 # Write your code here.
 def batch_badge_creator(attendees)
+  attendees.each_with_index { | item, index
+
+  }
 end
 
 def badge_maker(name)
