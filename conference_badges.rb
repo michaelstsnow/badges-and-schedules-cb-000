@@ -13,7 +13,7 @@ end
 
 def assign_rooms(attendees)
   badges = batch_badge_creator(attendees);
-  badges.each do { |Intro|
+  badges.each { | Intro |
 
   }
 end
