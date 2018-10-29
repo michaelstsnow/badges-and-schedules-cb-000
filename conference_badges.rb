@@ -12,7 +12,7 @@ def badge_maker(name)
 end
 
 def assign_rooms(attendees)
-  badge_and_room=[];
+  greeting=[];
   badges.each_with_index { | attendee, index |
     badge_and_room << "Hello, #{attendee}! You'll be assigned to room #{index}!"
   }
