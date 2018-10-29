@@ -6,8 +6,10 @@ def badge_maker
 end
 
 def assign_rooms(names)
-
-  puts "Hello, #{names}! You'll be assigned to room 1!"
+  room = 1;
+  names.each do
+    puts "Hello, #{names}! You'll be assigned to room 1!"    
+  end
 end
 
 def printer
